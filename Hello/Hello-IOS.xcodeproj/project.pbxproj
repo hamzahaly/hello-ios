@@ -34,17 +34,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		9D1BC0B01DA303CB00E3189D /* Hello.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hello.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D1BC0B01DA303CB00E3189D /* Hello-IOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hello-IOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D1BC0B31DA303CB00E3189D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9D1BC0B51DA303CB00E3189D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		9D1BC0B81DA303CB00E3189D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9D1BC0BA1DA303CB00E3189D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9D1BC0BD1DA303CB00E3189D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9D1BC0BF1DA303CB00E3189D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9D1BC0C41DA303CB00E3189D /* HelloTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelloTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D1BC0C41DA303CB00E3189D /* Hello-IOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Hello-IOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D1BC0C81DA303CB00E3189D /* HelloTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloTests.swift; sourceTree = "<group>"; };
 		9D1BC0CA1DA303CB00E3189D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9D1BC0CF1DA303CB00E3189D /* HelloUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelloUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D1BC0CF1DA303CB00E3189D /* Hello-IOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Hello-IOSUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D1BC0D31DA303CB00E3189D /* HelloUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloUITests.swift; sourceTree = "<group>"; };
 		9D1BC0D51DA303CB00E3189D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -87,9 +87,9 @@
 		9D1BC0B11DA303CB00E3189D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9D1BC0B01DA303CB00E3189D /* Hello.app */,
-				9D1BC0C41DA303CB00E3189D /* HelloTests.xctest */,
-				9D1BC0CF1DA303CB00E3189D /* HelloUITests.xctest */,
+				9D1BC0B01DA303CB00E3189D /* Hello-IOS.app */,
+				9D1BC0C41DA303CB00E3189D /* Hello-IOSTests.xctest */,
+				9D1BC0CF1DA303CB00E3189D /* Hello-IOSUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -128,9 +128,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		9D1BC0AF1DA303CB00E3189D /* Hello */ = {
+		9D1BC0AF1DA303CB00E3189D /* Hello-IOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9D1BC0D81DA303CB00E3189D /* Build configuration list for PBXNativeTarget "Hello" */;
+			buildConfigurationList = 9D1BC0D81DA303CB00E3189D /* Build configuration list for PBXNativeTarget "Hello-IOS" */;
 			buildPhases = (
 				9D1BC0AC1DA303CB00E3189D /* Sources */,
 				9D1BC0AD1DA303CB00E3189D /* Frameworks */,
@@ -140,14 +140,14 @@
 			);
 			dependencies = (
 			);
-			name = Hello;
+			name = "Hello-IOS";
 			productName = Hello;
-			productReference = 9D1BC0B01DA303CB00E3189D /* Hello.app */;
+			productReference = 9D1BC0B01DA303CB00E3189D /* Hello-IOS.app */;
 			productType = "com.apple.product-type.application";
 		};
-		9D1BC0C31DA303CB00E3189D /* HelloTests */ = {
+		9D1BC0C31DA303CB00E3189D /* Hello-IOSTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9D1BC0DB1DA303CB00E3189D /* Build configuration list for PBXNativeTarget "HelloTests" */;
+			buildConfigurationList = 9D1BC0DB1DA303CB00E3189D /* Build configuration list for PBXNativeTarget "Hello-IOSTests" */;
 			buildPhases = (
 				9D1BC0C01DA303CB00E3189D /* Sources */,
 				9D1BC0C11DA303CB00E3189D /* Frameworks */,
@@ -158,14 +158,14 @@
 			dependencies = (
 				9D1BC0C61DA303CB00E3189D /* PBXTargetDependency */,
 			);
-			name = HelloTests;
+			name = "Hello-IOSTests";
 			productName = HelloTests;
-			productReference = 9D1BC0C41DA303CB00E3189D /* HelloTests.xctest */;
+			productReference = 9D1BC0C41DA303CB00E3189D /* Hello-IOSTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		9D1BC0CE1DA303CB00E3189D /* HelloUITests */ = {
+		9D1BC0CE1DA303CB00E3189D /* Hello-IOSUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9D1BC0DE1DA303CB00E3189D /* Build configuration list for PBXNativeTarget "HelloUITests" */;
+			buildConfigurationList = 9D1BC0DE1DA303CB00E3189D /* Build configuration list for PBXNativeTarget "Hello-IOSUITests" */;
 			buildPhases = (
 				9D1BC0CB1DA303CB00E3189D /* Sources */,
 				9D1BC0CC1DA303CB00E3189D /* Frameworks */,
@@ -176,9 +176,9 @@
 			dependencies = (
 				9D1BC0D11DA303CB00E3189D /* PBXTargetDependency */,
 			);
-			name = HelloUITests;
+			name = "Hello-IOSUITests";
 			productName = HelloUITests;
-			productReference = 9D1BC0CF1DA303CB00E3189D /* HelloUITests.xctest */;
+			productReference = 9D1BC0CF1DA303CB00E3189D /* Hello-IOSUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -207,7 +207,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 9D1BC0AB1DA303CB00E3189D /* Build configuration list for PBXProject "Hello" */;
+			buildConfigurationList = 9D1BC0AB1DA303CB00E3189D /* Build configuration list for PBXProject "Hello-IOS" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -220,9 +220,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				9D1BC0AF1DA303CB00E3189D /* Hello */,
-				9D1BC0C31DA303CB00E3189D /* HelloTests */,
-				9D1BC0CE1DA303CB00E3189D /* HelloUITests */,
+				9D1BC0AF1DA303CB00E3189D /* Hello-IOS */,
+				9D1BC0C31DA303CB00E3189D /* Hello-IOSTests */,
+				9D1BC0CE1DA303CB00E3189D /* Hello-IOSUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -285,12 +285,12 @@
 /* Begin PBXTargetDependency section */
 		9D1BC0C61DA303CB00E3189D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 9D1BC0AF1DA303CB00E3189D /* Hello */;
+			target = 9D1BC0AF1DA303CB00E3189D /* Hello-IOS */;
 			targetProxy = 9D1BC0C51DA303CB00E3189D /* PBXContainerItemProxy */;
 		};
 		9D1BC0D11DA303CB00E3189D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 9D1BC0AF1DA303CB00E3189D /* Hello */;
+			target = 9D1BC0AF1DA303CB00E3189D /* Hello-IOS */;
 			targetProxy = 9D1BC0D01DA303CB00E3189D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -442,7 +442,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.uw.HelloTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hello.app/Hello";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hello-IOS.app/Hello-IOS";
 			};
 			name = Debug;
 		};
@@ -456,7 +456,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.uw.HelloTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hello.app/Hello";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hello-IOS.app/Hello-IOS";
 			};
 			name = Release;
 		};
@@ -489,7 +489,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		9D1BC0AB1DA303CB00E3189D /* Build configuration list for PBXProject "Hello" */ = {
+		9D1BC0AB1DA303CB00E3189D /* Build configuration list for PBXProject "Hello-IOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9D1BC0D61DA303CB00E3189D /* Debug */,
@@ -498,29 +498,32 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9D1BC0D81DA303CB00E3189D /* Build configuration list for PBXNativeTarget "Hello" */ = {
+		9D1BC0D81DA303CB00E3189D /* Build configuration list for PBXNativeTarget "Hello-IOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9D1BC0D91DA303CB00E3189D /* Debug */,
 				9D1BC0DA1DA303CB00E3189D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		9D1BC0DB1DA303CB00E3189D /* Build configuration list for PBXNativeTarget "HelloTests" */ = {
+		9D1BC0DB1DA303CB00E3189D /* Build configuration list for PBXNativeTarget "Hello-IOSTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9D1BC0DC1DA303CB00E3189D /* Debug */,
 				9D1BC0DD1DA303CB00E3189D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		9D1BC0DE1DA303CB00E3189D /* Build configuration list for PBXNativeTarget "HelloUITests" */ = {
+		9D1BC0DE1DA303CB00E3189D /* Build configuration list for PBXNativeTarget "Hello-IOSUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9D1BC0DF1DA303CB00E3189D /* Debug */,
 				9D1BC0E01DA303CB00E3189D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
