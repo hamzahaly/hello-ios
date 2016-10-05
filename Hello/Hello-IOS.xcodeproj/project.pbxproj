@@ -193,6 +193,7 @@
 				TargetAttributes = {
 					9D1BC0AF1DA303CB00E3189D = {
 						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 526YLH2X58;
 						ProvisioningStyle = Automatic;
 					};
 					9D1BC0C31DA303CB00E3189D = {
@@ -412,9 +413,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 526YLH2X58;
 				INFOPLIST_FILE = Hello/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.uw.Hello;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Hamzahaly.Hello;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -424,9 +426,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 526YLH2X58;
 				INFOPLIST_FILE = Hello/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.uw.Hello;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Hamzahaly.Hello;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
